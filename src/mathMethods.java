@@ -44,10 +44,10 @@ public class mathMethods {
 		// -- Returns a random number >= 0 but <1.
 		double neat;
 		neat = Math.random();
-		while (neat != 0) {
+		/* while (neat != 0) {
 			neat = Math.random();
 			System.out.println(neat);
-		}
+		} */
 
 		double randomRodeo = Math.random();
 
@@ -65,6 +65,7 @@ public class mathMethods {
 		System.out.println(newCeilingFan);
 		System.out.println(maxTheDog);
 		System.out.println(thanksPfeffer);
+		System.out.println(neat);
 		System.out.println(randomRodeo);
 		System.out.println(piratePi);
 		System.out.println(woodysRoundup);
